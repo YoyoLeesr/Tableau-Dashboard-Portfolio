@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tableau Dashboard Portfolio showcasing manufacturing operations, quality management, and strategic analytics solutions by Lee Shao Rong">
+  <meta name="keywords" content="Tableau, Dashboard, Analytics, Manufacturing, Quality Management, Data Visualization">
+  <meta name="author" content="Lee Shao Rong">
+  <title>Tableau Dashboard Portfolio | Lee Shao Rong</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="restricted-badge">Restricted</div>
+    <div class="container">
+      <div class="header-content">
+        <h1>LEE SHAO RONG</h1>
+        <p class="subtitle">Tableau Dashboard Portfolio</p>
+        
+        <div class="header-stats">
+          <div class="stat-item">
+            <span class="stat-value">9</span>
+            <span class="stat-label">Production Dashboards</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">80%</span>
+            <span class="stat-label">Time Reduction</span>
+          </div>
+        </div>
+
+        <div class="header-cta">
+          <a href="www.linkedin.com/in/leeshaorong" target="_blank" rel="noopener" class="linkedin-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+        
+        <p class="draft-note">This is a draft portfolio document</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <!-- Section Introduction -->
+      <section class="section-intro">
+        <h2>Featured Dashboard Projects</h2>
+        <p>Comprehensive analytics solutions spanning operations monitoring, quality management, incident tracking, and strategic portfolio oversight—delivering measurable improvements in manufacturing efficiency, quality control, and cross-functional execution.</p>
+      </section>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsGrid">
+        
+        <!-- Project 1: Yield & Scrap Performance -->
+        <article class="project-card" data-category="operations">
+          <span class="category-badge operations">Operations</span>
+          <div class="project-screenshot">
+            <img src="assets/images/yield-scrap-performance.png" alt="Yield & Scrap Performance Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              📊 Dashboard Screenshot<br>
+              <small>(yield-scrap-performance.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">1</span>
+            <h3 class="project-title">Yield & Scrap Performance Dashboard</h3>
+            <p class="project-description">
+              Built a management-facing yield reporting dashboard to track year-over-year performance and quickly pinpoint loss drivers. Scrap is layered by tool and keyword to enable fast Pareto analysis, while key indicators (moving average, yield plan, yield target, and scrap year-end % based on scrap lots vs. yield output) provide clear performance context and gap-to-target visibility.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">YoY Tracking</span>
+              <span class="impact-tag">Pareto Analysis</span>
+              <span class="impact-tag">KPI Monitoring</span>
+              <span class="impact-tag">Gap Analysis</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/yield-scrap-performance.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Wafer Drop Incident Tracker -->
+        <article class="project-card" data-category="quality">
+          <span class="category-badge quality">Quality</span>
+          <div class="project-screenshot">
+            <img src="assets/images/wafer-drop-tracker.png" alt="Wafer Drop Incident Tracker" loading="lazy">
+            <div class="screenshot-placeholder">
+              🔍 Dashboard Screenshot<br>
+              <small>(wafer-drop-tracker.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">2</span>
+            <h3 class="project-title">Wafer Drop Incident Tracker (Glass Carrier Wafers)</h3>
+            <p class="project-description">
+              Developed an incident monitoring dashboard focused on wafer-drop events on glass carrier wafers, enabling rapid detection of recurring issues and process weak points. The view supports drill-down by EPA, process group, tool, and multi-chain recipe structure, helping engineers isolate root-cause patterns and prioritize corrective actions based on frequency and impact.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Incident Tracking</span>
+              <span class="impact-tag">Root Cause Analysis</span>
+              <span class="impact-tag">Multi-Level Drill-Down</span>
+              <span class="impact-tag">Pattern Detection</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/wafer-drop-tracker.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Double-Process Escapee Tracker -->
+        <article class="project-card" data-category="quality">
+          <span class="category-badge quality">Quality</span>
+          <div class="project-screenshot">
+            <img src="assets/images/double-process-tracker.png" alt="Double-Process Escapee Tracker" loading="lazy">
+            <div class="screenshot-placeholder">
+              ⚠️ Dashboard Screenshot<br>
+              <small>(double-process-tracker.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">3</span>
+            <h3 class="project-title">Double-Process Escapee Tracker → APC Prevention Solution</h3>
+            <p class="project-description">
+              Created a production escapee tracker to detect and quantify double-processing events, improving visibility of operational risks and preventing repeat occurrences. The solution was later expanded into an APC-based prevention approach to stop double-process operations proactively; led the cross-functional team to align requirements, data definitions, and operational response workflows.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Escapee Detection</span>
+              <span class="impact-tag">APC Integration</span>
+              <span class="impact-tag">Prevention System</span>
+              <span class="impact-tag">Cross-Functional Leadership</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/double-process-tracker.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: QMP Overview -->
+        <article class="project-card" data-category="quality">
+          <span class="category-badge quality">Quality</span>
+          <div class="project-screenshot">
+            <img src="assets/images/qmp-overview.png" alt="QMP Overview Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              📋 Dashboard Screenshot<br>
+              <small>(qmp-overview.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">4</span>
+            <h3 class="project-title">QMP Overview – Abnormality & Action Plan Automation</h3>
+            <p class="project-description">
+              Implemented an automated QMP overview dashboard to consolidate production abnormalities, engineering observations, and action plans related to lot aborts/interruptions. By standardizing reporting and surfacing trends by tool and keyword, the dashboard significantly reduced manual investigation effort and accelerated engineering decision-making and follow-up.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Automation</span>
+              <span class="impact-tag">Trend Analysis</span>
+              <span class="impact-tag">Action Planning</span>
+              <span class="impact-tag">Time Savings</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/qmp-overview.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: QMP Daily Review -->
+        <article class="project-card" data-category="realtime">
+          <span class="category-badge realtime">Real-Time</span>
+          <div class="project-screenshot">
+            <img src="assets/images/qmp-daily-review.png" alt="QMP Daily Review Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              ⏰ Dashboard Screenshot<br>
+              <small>(qmp-daily-review.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">5</span>
+            <h3 class="project-title">QMP Daily Review – Morning Meeting Execution</h3>
+            <p class="project-description">
+              Extended QMP reporting into an operational daily dashboard used for morning stand-up reviews of fresh incidents. The design emphasizes "new and actionable" items, highlights top drivers, and ensures every abnormality has an assigned owner—supporting accountability, timely containment, and consistent closure management.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Daily Operations</span>
+              <span class="impact-tag">Accountability</span>
+              <span class="impact-tag">Meeting Support</span>
+              <span class="impact-tag">Closure Tracking</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/qmp-daily-review.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Real-Time Uptime Dashboard -->
+        <article class="project-card" data-category="realtime">
+          <span class="category-badge realtime">Real-Time</span>
+          <div class="project-screenshot">
+            <img src="assets/images/uptime-downtime-dashboard.png" alt="Uptime/Downtime Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              ⚡ Dashboard Screenshot<br>
+              <small>(uptime-downtime-dashboard.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">6</span>
+            <h3 class="project-title">Shift-Based Real-Time Uptime / Downtime / Standby Dashboard</h3>
+            <p class="project-description">
+              Delivered a real-time equipment performance dashboard that converts raw tool states into actionable uptime, downtime, and standby insights. Performance is categorized by shift pattern and visualized for shift-to-shift comparison, enabling faster detection of systematic differences (handover, staffing, dispatching behavior) and supporting targeted improvement actions.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Real-Time Monitoring</span>
+              <span class="impact-tag">Shift Analysis</span>
+              <span class="impact-tag">OEE Tracking</span>
+              <span class="impact-tag">Performance Comparison</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/uptime-downtime-dashboard.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 7: SEMI E10 Benchmarking -->
+        <article class="project-card" data-category="strategic">
+          <span class="category-badge strategic">Strategic</span>
+          <div class="project-screenshot">
+            <img src="assets/images/semi-e10-benchmarking.png" alt="SEMI E10 Benchmarking Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              🌍 Dashboard Screenshot<br>
+              <small>(semi-e10-benchmarking.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">7</span>
+            <h3 class="project-title">Global SEMI E10 Manufacturing Time Benchmarking</h3>
+            <p class="project-description">
+              Developed a standardized SEMI E10-compliant dashboard to compare manufacturing time and tool-state performance across global sites (e.g., Villach). This enabled consistent benchmarking with aligned definitions and metrics, supporting cross-site performance reviews, best-practice sharing, and objective tracking of utilization and losses.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">SEMI E10 Standard</span>
+              <span class="impact-tag">Global Benchmarking</span>
+              <span class="impact-tag">Cross-Site Analysis</span>
+              <span class="impact-tag">Best Practices</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/semi-e10-benchmarking.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8: Project Portfolio Tracker -->
+        <article class="project-card" data-category="strategic">
+          <span class="category-badge strategic">Strategic</span>
+          <div class="project-screenshot">
+            <img src="assets/images/portfolio-tracker.png" alt="Project Portfolio Tracker" loading="lazy">
+            <div class="screenshot-placeholder">
+              💼 Dashboard Screenshot<br>
+              <small>(portfolio-tracker.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">8</span>
+            <h3 class="project-title">Cross-Functional Project Portfolio & Savings (Invest Avoidance) Tracker</h3>
+            <p class="project-description">
+              Built a portfolio-level project management dashboard to improve transparency of cross-functional initiatives across all areas. It tracks project count, milestone progress, completion rate, and financial impact (target savings and invest avoidance), providing leaders with a clear view of pipeline health, execution status, and expected value delivery.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Portfolio Management</span>
+              <span class="impact-tag">Financial Tracking</span>
+              <span class="impact-tag">Milestone Monitoring</span>
+              <span class="impact-tag">Executive Visibility</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/portfolio-tracker.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 9: Implant Process Capability -->
+        <article class="project-card" data-category="strategic">
+          <span class="category-badge strategic">Strategic</span>
+          <div class="project-screenshot">
+            <img src="assets/images/implant-capability.png" alt="Implant Process Capability Dashboard" loading="lazy">
+            <div class="screenshot-placeholder">
+              📐 Dashboard Screenshot<br>
+              <small>(implant-capability.png)</small>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-number">9</span>
+            <h3 class="project-title">Implant Process Capability Box Diagram + Forecast Loading / Roadmap View</h3>
+            <p class="project-description">
+              Created a capability visualization using box-diagram style overlays to compare implantation process windows across tools and sites at a glance. Enhanced the view with forecast loading and expected process time, enabling quick assessment of coverage gaps, capacity implications, and direction for equipment roadmap and platform strategy decisions.
+            </p>
+            <div class="impact-tags">
+              <span class="impact-tag">Capability Analysis</span>
+              <span class="impact-tag">Capacity Planning</span>
+              <span class="impact-tag">Roadmap Support</span>
+              <span class="impact-tag">Strategic Planning</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary" onclick="showDashboardAlert()">View Dashboard</button>
+              <a href="assets/images/implant-capability.png" class="btn btn-secondary" target="_blank">Screenshot</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <h3>Confidentiality Notice</h3>
+        <p>
+          Some dashboards may be restricted due to proprietary business data and confidentiality agreements. 
+          Screenshots and anonymized case studies are available for review. Full live demonstrations with 
+          detailed technical walkthroughs can be provided during interviews or upon request under appropriate 
+          non-disclosure agreements.
+        </p>
+        <div class="footer-meta">
+          © 2025 Lee Shao Rong | Tableau Dashboard Portfolio | For Professional Review Only
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
